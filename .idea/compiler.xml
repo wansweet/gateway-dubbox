@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-common" />
+        <module name="gateway-core" />
+        <module name="gateway-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway-common" target="1.7" />
+      <module name="gateway-core" target="1.7" />
+      <module name="gateway-dubbox" target="1.5" />
+      <module name="gateway-service" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
